@@ -1,4 +1,4 @@
-O sistema possui 7 telas principais e outras __ de aviso que a ação foi concluída. 
+O sistema possui 7 telas principais e outras 6 de aviso que a ação foi concluída. 
 
 
 <h1>Tela inicial:</h1> 
