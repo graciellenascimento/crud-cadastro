@@ -1,0 +1,133 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fffffe;
+}
+
+.cabecalho {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fffffe;
+    background-color: #888887;
+    padding: 6px 0 6px 12px;
+}
+
+.container {
+    text-align: center;
+    margin: 240px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #40403f;
+}
+
+.container a:hover{
+    color: #a3a3a3;
+}
+
+.funcionarios, .cargos {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.9;
+}
+
+.funcionarios-cadastrados {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 24px 0 0 0;
+}
+
+.cadastro {
+    margin: 6rem 34rem;
+    padding: 0px 0 0 30px;
+    font-weight: bold;
+    color: #40403f;
+    font-size: 12px;
+    border: 1px solid;
+}
+
+.input {
+    margin: 7px;
+}
+
+.input input {
+    padding: 6px;
+}
+
+.cadastro input[type="date"] {
+    padding-inline: 14px;
+}
+
+.cadastro a {
+    text-decoration: none;
+    color: #40403f;
+    left: 52%;
+    position: absolute;
+}
+
+.cadastro a:hover {
+    color:#a3a3a3;
+}
+
+#retornar a {
+    padding: 9px;
+    position: relative;
+}
+
+#retornar a:hover {
+    color:#a3a3a3;
+}
+
+.tabela {
+    padding: 50px 0 0 0;
+}
+
+.classificacao {
+    text-align: center;
+    padding: 60px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #d6d3d3;
+}
+
+.voltar a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #40403f;
+    left: 69%;
+    top: 16%;
+    position: absolute;
+}
+
+.voltar a:hover{
+    color:#a3a3a3;
+}
+
+.botao-editar, .botao-excluir {
+    border: none;
+}
+.botao-editar a, .botao-excluir a {
+    color: #2e2e2e;
+    font-weight: bold;
+    text-decoration: none;
+}
+.botao-editar a:hover, .botao-excluir a:hover {
+    color: #5c5c5c;
+}
+
+.botao-editar {
+    background-color: #84fda9;
+}
+.botao-excluir {
+    background-color: #fd8484;
+}
